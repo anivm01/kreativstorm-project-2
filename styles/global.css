@@ -1,3 +1,10 @@
 * *::before *::after {
 box-sizing: border-box;
 }
+
+:root {
+    --light-color: #F9FAF9;
+    --medium-color: #E5E7EB;
+    --dark-color: #1F2937;
+    --cta-color: #3882F5;
+}
