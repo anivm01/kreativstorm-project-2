@@ -1,0 +1,40 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin: 0;
+}
+.banner{
+  height:300px;
+}
+.navbar,.banner{
+  background-color:#1F2937;
+  color: white;
+}
+a{
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+  padding-right: 10px;
+  padding-bottom: 0px;
+}
+
+.blue-button{
+  background-color: #3882F6;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+i{
+  font-size: 30px;
+}
+
+.chat{
+  display: flex;
+  justify-content: center;
+}
