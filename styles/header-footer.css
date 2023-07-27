@@ -1,4 +1,4 @@
-header, footer{
+.header, .footer{
   display: flex;
   background-color: #1F2937;
   justify-content: center;
@@ -6,27 +6,27 @@ header, footer{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
-footer{
+.footer{
   color: #F9FAF8;
 }
-header{
+.header{
   justify-content: space-between;
   padding: 0 21vw 0 17vw;
 }
-header .logo{
+.header .logo{
   font-size: 24px;
   font-weight: 700;
   color: #F9FAF8;
   font-family: "Roboto", sans-serif;
 }
-header nav{
+.header .navbar{
   margin: 0;
   display: flex;
   font-size: 18px;
   color: #E5E7EB;
   justify-content: space-around;
 }
-nav ul{
+.navbar ul{
   margin: 0;
   padding: 0;
   display: flex;
@@ -34,28 +34,28 @@ nav ul{
   justify-content: space-around;
   align-items: center;
 }
-nav ul li{
+.navbar ul li{
   display: flex;
   margin: 0;
 }
-nav ul li a{
+.navbar ul li a{
   display: block;
   margin: 0;
   padding: 1vw;
 }
-nav ul li a:hover {
+.navbar ul li a:hover {
   background-color:#3882F6;
   text-decoration: none;
 }
-nav ul li a:link {
+.navbar ul li a:link {
   color: #E5E7EB;
   text-decoration: none;
 }
-nav ul li a:active {
+.navbar ul li a:active {
   color: #E5E7EB;
   text-decoration: none;
 }
-nav ul li a:visited {
+.navbar ul li a:visited {
   color: #E5E7EB;
   text-decoration: none;
 }
