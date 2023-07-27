@@ -1,0 +1,345 @@
+#images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px;
+  font-family: 'Roboto';
+}
+
+
+.image_section__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.image_section__text > p {
+  font-weight: 300;
+  padding: 5px;
+  font-style: italic;
+}
+
+.section__featured {
+  height: 50vh;
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  outline: none;
+}
+
+#section__featured > h4 {
+  font-family: 'Roboto';
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+#section__featured > h1 {
+  font-family: 'Roboto';
+}
+
+#section__featured > .side__section > button {
+  border: 0;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #3882F6;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+  cursor: pointer;
+}
+
+p {
+  margin-bottom: 5px;
+}
+#section__featured {
+  display: flex;
+  justify-content: center;
+}
+#section__featured > .side__section {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+
+
+#section__featured > .side__section > h1 {
+  font-family: 'Roboto';
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+#section__featured > .side__section > h4 {
+  font-family: 'Roboto';
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#section__featured > .side__section > p {
+  font-family: 'Roboto';
+}
+
+.g-11 {
+  grid-row: span 2;
+}
+
+.g-20 {
+  grid-row-start: 1;
+}
+
+.g-16 {
+  grid-row: span 2;
+}
+
+.section__featured > h1 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 36px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 200px);
+  grid-template-rows: repeat(4, 200px);
+  grid-gap: 15px;
+  margin: 0 20px;
+}
+
+.grid-item {
+  background-color: #3882F6;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+#images > h1 {
+  font-family: 'Roboto';
+}
+
+.span-2-cols {
+  grid-column: span 2;
+}
+
+.span-2-rows {
+  grid-row: span 2;
+}
+
+.g-15 {
+  grid-row: span 3;
+}
+
+.g-12 {
+  grid-row: span 2;
+}
+
+.g-9 {
+  grid-row: span 3;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 1rem;
+}
+
+footer {
+  display: flex;
+  background-color: #1F2937;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width:100vw;
+  font-family: "Roboto", sans-serif;
+  color: #F9FAF8;
+}
+
+header > nav > a {
+  color: white;
+  font-family: 'Roboto';
+  text-decoration: none;
+}
+
+header > h1 {
+  color: white;
+  align-self: flex-start;
+  font-family: 'Roboto';
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+#section__mid {
+  height: 50vh;
+}
+
+#section__featured > .side__section > button > a {
+  text-decoration: none;
+  color: white;
+}
+
+#section__mid > .section__featured > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: calc(100% / 3);
+  font-size: 1rem;
+  padding: 15px;
+  font-family: 'Roboto';
+  color: white;
+  text-transform: uppercase;
+}
+
+#section__mid > .section__featured {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+
+#section__mid > .section__featured > .card__one {
+  background-color: #1F2937;
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 23% 100%);
+  transform: translateX(120px);
+}
+
+#section__mid > .section__featured > .card__two {
+  background-color: #3882F6;
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 23% 100%);
+}
+
+#section__mid > .section__featured > .card__three {
+  background-color: #1c345c;
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
+  transform: translateX(-120px);
+}
+
+#section__mid > h1 {
+  font-family: 'Roboto';
+  font-weight: 900;
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.grid-item h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: .7rem;
+  padding: 15px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white; 
+  opacity: 0;
+  width: 100%;
+  transition: opacity 0.3s ease; 
+}
+
+.grid-item:hover h2 {
+  opacity: 1; 
+}
+@media screen and (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(6, 150px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(8, 180px);
+  }
+  .section__featured > h1 {
+    font-size: 24px;
+  }
+  .section__featured > h4 {
+    font-size: 1.5rem;
+  }
+  .section__featured > .side__section > h1 {
+    font-size: 3rem;
+  }
+  .section__featured > .side__section > h4 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  header {
+    margin-bottom:10px;
+  }
+  .header__links {
+    font-size:.6rem;
+  }
+  #images { 
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+  }
+  #section__mid > .section__featured > .card__one,
+  #section__mid > .section__featured > .card__two,
+  #section__mid > .section__featured > .card__three {
+    clip:none;
+    transform: none;
+    height:30vh;
+    width:30vw;
+    padding:25px;
+  }
+  #images > .image_section__text {
+    background-color: #E5E7EB;
+    width:100vw;
+    height:30vh;
+    margin-bottom:10px;
+  }
+  .grid-container {
+    grid-template-columns:repeat(3,80px);
+    grid-template-rows: repeat(3, 80px);
+  }}
+@media screen and (max-width: 768px) {
+  #section__mid > .section__featured {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0;
+  }
+  #images {
+    flex-direction: column;
+  }
+  #images > .image_section__text {
+    background-color: #E5E7EB;
+    width:100vw;
+    height:30vh;
+    margin-bottom:10px;
+  }
+
+  #section__mid > .section__featured > .card__one,
+  #section__mid > .section__featured > .card__two,
+  #section__mid > .section__featured > .card__three {
+    transform: none;
+    clip:none;
+    padding:15px;
+    width:33vw;
+    margin-bottom:10px;
+    font-size:.8rem;
+
+  }
+  .side__section {
+    padding:15px;
+  }
+}
