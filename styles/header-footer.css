@@ -6,6 +6,7 @@
   align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  padding:20px;
 } 
 .footer{
   color: #F9FAF8;
@@ -60,3 +61,28 @@
   color: #E5E7EB;
   text-decoration: none;
 }
+
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+  }
+
+  .navbar {
+    margin-top: 20px;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar ul li {
+    margin-bottom: 10px;
+  }
+}
+
