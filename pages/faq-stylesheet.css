@@ -8,17 +8,18 @@
  padding: 30px;
  margin-bottom: 0px;
  font-size: 48px;
+ font-family: 'Lilita One', cursive;
 }
 .form{
   padding-top: 0px;
 }
 .form label{
   text-align: center;
-  font-size: 24px;
+  font-size: 36px;
   padding: 10px;
   display: block;
+  font-family: 'Lilita One', cursive;
 }
-
 .search{
   display: flex;
   justify-content: center;
@@ -40,11 +41,16 @@
   align-items: center;
 }
 .chat p{
-  font-size: 24px;
+  font-size: 36px;
+  font-family: 'Lilita One', cursive;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 .container h1{
   text-align: center;
   font-size: 36px;
+  padding: 20px;
+  font-family: 'Lilita One', cursive;
 }
 .question-cards{
   display: flex;
@@ -60,9 +66,13 @@
 }
 .card h2 {
   text-align: center;
+  font-size: 28px;
+  font-family: 'Noto Serif', serif;
 }
 .card p {
   text-align: justify;
+  font-size: 16px;
+  font-family: 'Noto Serif', serif;
 }
 .blue-button{
   background-color: #3882F6;
@@ -79,7 +89,16 @@
   margin-top: 0px;
 }
 .bottom .blue-button{
+ padding-top: 10px;
  float: right;
  margin-right: 50px;
  margin-bottom: 50px;
+}
+.bottom .top-of-page-btn{
+  padding-top: 10px;
+  float: left;
+  margin-left: 50px;
+ }
+.fa-arrow-up{
+  font-size: 30px;
 }
