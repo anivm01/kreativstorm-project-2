@@ -1,3 +1,11 @@
+.body {
+    font-family: "Roboto";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .contact {
     max-width: 50rem;
     margin: 0 auto;
@@ -9,7 +17,7 @@
 .contact__header {
     background-color: var(--dark-color);
     width: 100%;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
