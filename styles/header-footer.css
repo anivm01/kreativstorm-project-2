@@ -2,10 +2,11 @@
   display: flex;
   background-color: #1F2937;
   justify-content: center;
+  width:100%;
   align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-}
+} 
 .footer{
   color: #F9FAF8;
 }
