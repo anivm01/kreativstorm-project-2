@@ -1,7 +1,12 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+:root {
+    --light-color: #F9FAF9;
+    --medium-color: #E5E7EB;
+    --dark-color: #1F2937;
+    --cta-color: #3882F5;
 }
