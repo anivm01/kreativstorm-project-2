@@ -1,33 +1,68 @@
-.navbar{
-  display: flex;
-  justify-content: space-between;
-  height: 30px;
-  margin: 0;
-}
 .banner{
   height:400px;
-}
-.navbar,.banner{
   background-color:#1F2937;
   color: white;
 }
-a{
-  font-size: 18px;
-  color: #E5E7EB;
-  text-decoration: none;
-  padding-right: 10px;
-  padding-bottom: 0px;
+.banner h1{
+ text-align: center;
+ padding: 30px;
+ margin-bottom: 0px;
+ font-size: 48px;
+}
+.form{
+  padding-top: 0px;
+}
+.form label{
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  display: block;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.search .text-area{
+  width: 300px;
+  height: 25px;
+}
+.search .blue-button{
+  margin-top:0px;
+  margin-left: 5px;
+  height: 41px;
+}
+.chat{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chat p{
+  font-size: 24px;
+}
+.container h1{
+  text-align: center;
+  font-size: 36px;
 }
 .question-cards{
   display: flex;
   justify-content: space-around;
 }
-
 .card{
   height: 300px;
   width:450px;
-  border: solid;
   margin-bottom: 30px;
+  padding: 15px;
+  margin-left: 20px;
+  border: none;
+}
+.card h2 {
+  text-align: center;
+}
+.card p {
+  text-align: justify;
 }
 .blue-button{
   background-color: #3882F6;
@@ -36,15 +71,15 @@ a{
   border-radius: 5px;
   padding: 10px;
   font-size: 18px;
-  margin-left: 30px;
-  margin-top: 15px;
 }
-
-i{
+.fa-rocketchat{
   font-size: 30px;
 }
-
-.chat{
-  display: flex;
-  justify-content: center;
+.chat .blue-button{
+  margin-top: 0px;
+}
+.bottom .blue-button{
+ float: right;
+ margin-right: 50px;
+ margin-bottom: 50px;
 }
