@@ -26,9 +26,6 @@ body {
     font-size: 36px;
     margin-bottom: 25px;
     color: #1F2937;
-
-    animation: slideInUp;
-    animation-duration: 1s;
 }
 
 .heading p{
@@ -37,11 +34,7 @@ body {
     font-size: 18px;
     color: #02050a;
     margin-bottom: 30px;
-
-    animation: slideInUp;
-    animation-duration: 1.3s;
-}
-
+}    
 .container{
     width: 100%;
     margin: 0 auto;
@@ -64,9 +57,6 @@ body {
     display: block;
     transition: 0.5s ease;
     border-radius: 2%;
-
-    animation: slideInUp;
-    animation-duration: 1.6s;
 }
 .about-image img:hover{
     transform: scale(1.2);
@@ -75,9 +65,6 @@ body {
 }
 .about-content{
     flex:1;
-    
-    animation: slideInUp;
-    animation-duration: 1.6s;
 }
 .about-content h2{
     font-family: "Roboto" sans-serif;
