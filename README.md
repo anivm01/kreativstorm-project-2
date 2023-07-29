@@ -7,4 +7,4 @@ maxiv03
 sgkh001
 Mxk01
 
-See the live site here: https://anivm01.github.io/kreativstorm-project-2/index.html[https://anivm01.github.io/kreativstorm-project-2/index.html]
+See the live site here: https://anivm01.github.io/kreativstorm-project-2/index.html
