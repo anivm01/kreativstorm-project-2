@@ -1,50 +1,60 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
+.body {
     background-color: #E5E7EB;
-
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.heading {
-    width: 90%;
+
+.footer {
+    margin-top: auto;
+}
+
+
+.hero {
+    background-color: var(--dark-color);
+    width: 100%;
+    padding: 2rem 1rem;
+}
+
+.hero-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
-.heading h1 {
+.container {
+    max-width: 80rem;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+}
+
+
+.main-text {
     font-family: 'Roboto',sans-serif ;
     font-weight: 700;
     position: relative;
     font-size: 36px;
     margin-bottom: 25px;
-    color: #1F2937;
+    color: var(--light-color);
 }
 
-.heading p{
-    font-family: "Roboto" sans-serif;
-    font-weight: 400;
+.main-paragraph {
     font-size: 18px;
-    color: #02050a;
-    margin-bottom: 30px;
-}    
-.container{
-    width: 100%;
+    color: var(--medium-color);
+    max-width: 60rem;
     margin: 0 auto;
-    padding: 10px 20px;
-}
+}    
+
 .about{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 3rem 0;
 }
 .about-image{
     flex: 1;
@@ -64,7 +74,12 @@ body {
     
 }
 .about-content{
-    flex:1;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
 }
 .about-content h2{
     font-family: "Roboto" sans-serif;
@@ -100,9 +115,6 @@ body {
     background-color: #5192fa;
 }
 @media  screen and (max-width:768px) {
-    .heading{
-        padding: 0px 20px;
-    }
     .heading h1{
         font-size: 36px;
     }
