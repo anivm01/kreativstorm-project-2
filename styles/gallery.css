@@ -1,3 +1,10 @@
+.gallery-main {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.intro {
+  text-align: center;
+}
 #section__featured > div:nth-of-type(2) {
   background: url(https://shorturl.at/bryJO); 
   background-size:cover;
@@ -26,7 +33,6 @@
   font-style: italic;
 }
 .section__featured {
-  height: 50vh;
   display: flex;
   justify-content: flex-start;
   padding: 30px;
@@ -101,95 +107,95 @@ p {
 
 
 .item-1 {
-  background:url(https://shorturl.at/kFITW);
+  background:url(https://shorturl.at/hvCLO);
   background-size:cover;
 }
 
 .item-2 {
-  background:url(https://shorturl.at/entEF);
+  background:url(https://shorturl.at/wAKQ6);
   background-size:cover;
 }
 .item-3 {
-  background:url(https://shorturl.at/lBKO9);
+  background:url(https://shorturl.at/otBGN);
   background-size:cover;
   background-position: center;
 }
 .item-4 {
-  background:url(https://shorturl.at/fBJYZ);
+  background:url(https://shorturl.at/epBX0);
   background-size:cover;
   background-position: center;
 }
 .item-5 {
-  background:url(https://shorturl.at/bqtNX);
+  background:url(https://shorturl.at/iHMV1);
   background-size:cover;
 }
 .item-6 {
- background:url(https://shorturl.at/rwBW9);
+ background:url(https://shorturl.at/kwOR1);
  background-size:cover;
 }
 .item-7 {
-  background: url(https://shorturl.at/ovEL9);
+  background: url(https://shorturl.at/myAI1);
   background-size: cover;
 }
 
 .item-8 {
-  background: url(https://shorturl.at/oAMY1);
+  background: url(https://shorturl.at/jlM69);
   background-size: cover;
   background-position: center;
 }
 
 .item-9 {
-  background: url(https://shorturl.at/rGOU4);
+  background: url('../images/family.jpg');
   background-size: cover;
   background-position: center;
 }
 .item-10 {
-  background: url(https://shorturl.at/lwyMW);
+  background: url(https://shorturl.at/lqKL7);
   background-size: cover;
 }
 
 .item-11 {
-  background: url(https://shorturl.at/wEVXY);
+  background: url("../images/baby-b-day.jpg");
   background-size: cover;
 }
 
 .item-12 {
-  background: url(https://shorturl.at/eiT37);
+  background: url(https://shorturl.at/hmsQ8);
   background-size: cover;
 }
 .item-13 {
-  background: url(https://shorturl.at/entEF);
+  background: url(https://shorturl.at/cfLPX);
   background-size: cover;
 }
 
 .item-14 {
-  background: url(https://shorturl.at/entEF);
+  background: url(https://shorturl.at/hHIKV);
   background-size: cover;
 }
 
 .item-15 {
-  background: url(https://shorturl.at/entEF);
+  background: url(https://shorturl.at/AOTUX);
   background-size: cover;
 }
 
 .item-16 {
-  background: url(https://shorturl.at/entEF);
+  background: url(https://shorturl.at/cpvRX);
   background-size: cover;
 }
 
 .item-17 {
-  background: url(https://shorturl.at/entEF);
+  background: url(https://shorturl.at/ruB68);
   background-size: cover;
 }
 
 .item-18 {
-  background: url(https://shorturl.at/entEF);
+  background: url(https://shorturl.at/rsuxz);
   background-size: cover;
 }
 
 
 #section__mid {
-  height: 50vh;
+  margin: 2rem 0;
 }
 
 #section__featured > .side__section > button > a {
