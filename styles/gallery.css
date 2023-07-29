@@ -1,3 +1,10 @@
+.gallery-main {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.intro {
+  text-align: center;
+}
 #section__featured > div:nth-of-type(2) {
   background: url(https://shorturl.at/bryJO); 
   background-size:cover;
@@ -15,40 +22,32 @@
   padding: 10px;
 }
 .image_section__text > h1 {
-  font-family:'Roboto';
   font-size:2rem;
 }
 .image_section__text > p {
   font-weight: 300;
   padding: 5px;
-  font-family: 'Roboto',sans-serif;
   font-size:1rem;
   font-style: italic;
 }
 .section__featured {
-  height: 50vh;
   display: flex;
   justify-content: flex-start;
   padding: 30px;
   outline: none;
 }
 #section__featured > h4 {
-  font-family: 'Roboto';
   font-size: 2rem;
   font-weight: 300;
   text-transform: lowercase;
 }
 
-#section__featured > h1 {
-  font-family: 'Roboto';
-}
 #section__featured > .side__section > button {
   border: 0;
   padding: 15px;
   border-radius: 20px;
   background-color: #3882F6;
   color: white;
-  font-family: 'Roboto';
   font-weight: 500;
   cursor: pointer;
 }
@@ -68,24 +67,17 @@ p {
   padding: 10px;
 }
 #section__featured > .side__section > h1 {
-  font-family: 'Roboto';
   font-size: 5rem;
   font-weight: 900;
 }
 
 #section__featured > .side__section > h4 {
-  font-family: 'Roboto';
   font-size: 3rem;
   font-style: italic;
   font-weight: 300;
 }
-
-#section__featured > .side__section > p {
-  font-family: 'Roboto';
-}
  
 .section__featured > h1 {
-  font-family: 'Roboto';
   font-weight: 700;
   display: flex;
   justify-content: center;
@@ -94,102 +86,96 @@ p {
   font-size: 36px;
 }
 
- 
-#images > h1 {
-  font-family: 'Roboto';
-}
-
-
 .item-1 {
-  background:url(https://shorturl.at/kFITW);
+  background:url(https://shorturl.at/hvCLO);
   background-size:cover;
 }
 
 .item-2 {
-  background:url(https://shorturl.at/entEF);
+  background:url(https://shorturl.at/wAKQ6);
   background-size:cover;
 }
 .item-3 {
-  background:url(https://shorturl.at/lBKO9);
+  background:url(https://shorturl.at/otBGN);
   background-size:cover;
   background-position: center;
 }
 .item-4 {
-  background:url(https://shorturl.at/fBJYZ);
+  background:url(https://shorturl.at/epBX0);
   background-size:cover;
   background-position: center;
 }
 .item-5 {
-  background:url(https://shorturl.at/bqtNX);
+  background:url(https://shorturl.at/iHMV1);
   background-size:cover;
 }
 .item-6 {
- background:url(https://shorturl.at/rwBW9);
+ background:url(https://shorturl.at/kwOR1);
  background-size:cover;
 }
 .item-7 {
-  background: url(https://shorturl.at/ovEL9);
+  background: url(https://shorturl.at/myAI1);
   background-size: cover;
 }
 
 .item-8 {
-  background: url(https://shorturl.at/oAMY1);
+  background: url(https://shorturl.at/jlM69);
   background-size: cover;
   background-position: center;
 }
 
 .item-9 {
-  background: url(https://shorturl.at/rGOU4);
+  background: url('../images/family.jpg');
   background-size: cover;
   background-position: center;
 }
 .item-10 {
-  background: url(https://shorturl.at/lwyMW);
+  background: url(https://shorturl.at/lqKL7);
   background-size: cover;
 }
 
 .item-11 {
-  background: url(https://shorturl.at/wEVXY);
+  background: url("../images/baby-b-day.jpg");
   background-size: cover;
 }
 
 .item-12 {
-  background: url(https://shorturl.at/eiT37);
+  background: url(https://shorturl.at/hmsQ8);
   background-size: cover;
 }
 .item-13 {
-  background: url(https://shorturl.at/entEF);
+  background: url(https://shorturl.at/cfLPX);
   background-size: cover;
 }
 
 .item-14 {
-  background: url(https://shorturl.at/entEF);
+  background: url(https://shorturl.at/hHIKV);
   background-size: cover;
 }
 
 .item-15 {
-  background: url(https://shorturl.at/entEF);
+  background: url(https://shorturl.at/AOTUX);
   background-size: cover;
 }
 
 .item-16 {
-  background: url(https://shorturl.at/entEF);
+  background: url(https://shorturl.at/cpvRX);
   background-size: cover;
 }
 
 .item-17 {
-  background: url(https://shorturl.at/entEF);
+  background: url(https://shorturl.at/ruB68);
   background-size: cover;
 }
 
 .item-18 {
-  background: url(https://shorturl.at/entEF);
+  background: url(https://shorturl.at/rsuxz);
   background-size: cover;
 }
 
 
 #section__mid {
-  height: 50vh;
+  margin: 2rem 0;
 }
 
 #section__featured > .side__section > button > a {
@@ -205,7 +191,6 @@ p {
   width: calc(100% / 3);
   font-size: .6rem;
   padding: 16px;
-  font-family: 'Roboto';
   color: white;
   text-transform: uppercase;
 }
@@ -234,7 +219,6 @@ p {
 }
 
 #section__mid > h1 {
-  font-family: 'Roboto';
   font-weight: 900;
  }
 
@@ -249,7 +233,6 @@ p {
   bottom: 0;
   left: 0;
   margin: 0;
-  font-family: 'Roboto';
   font-size: .7rem;
   padding: 15px;
   text-align: center;
@@ -262,7 +245,6 @@ p {
 
 .item:hover h2 {
   opacity: 1; 
-  font-family: "Roboto";
 }
 
  
@@ -373,7 +355,6 @@ p {
       width: 100vw;
       height: 30vh;
       text-align: center;
-      font-family: 'Roboto',sans-serif;
       margin-bottom: 10px;
     }
     #section__featured > .side__section {
