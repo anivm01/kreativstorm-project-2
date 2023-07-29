@@ -11,3 +11,7 @@
     --dark-color: #1F2937;
     --cta-color: #3882F5;
 }
+
+body {
+  font-family: "Roboto";
+}
