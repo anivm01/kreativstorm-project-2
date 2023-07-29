@@ -22,13 +22,11 @@
   padding: 10px;
 }
 .image_section__text > h1 {
-  font-family:'Roboto';
   font-size:2rem;
 }
 .image_section__text > p {
   font-weight: 300;
   padding: 5px;
-  font-family: 'Roboto',sans-serif;
   font-size:1rem;
   font-style: italic;
 }
@@ -39,22 +37,17 @@
   outline: none;
 }
 #section__featured > h4 {
-  font-family: 'Roboto';
   font-size: 2rem;
   font-weight: 300;
   text-transform: lowercase;
 }
 
-#section__featured > h1 {
-  font-family: 'Roboto';
-}
 #section__featured > .side__section > button {
   border: 0;
   padding: 15px;
   border-radius: 20px;
   background-color: #3882F6;
   color: white;
-  font-family: 'Roboto';
   font-weight: 500;
   cursor: pointer;
 }
@@ -74,24 +67,17 @@ p {
   padding: 10px;
 }
 #section__featured > .side__section > h1 {
-  font-family: 'Roboto';
   font-size: 5rem;
   font-weight: 900;
 }
 
 #section__featured > .side__section > h4 {
-  font-family: 'Roboto';
   font-size: 3rem;
   font-style: italic;
   font-weight: 300;
 }
-
-#section__featured > .side__section > p {
-  font-family: 'Roboto';
-}
  
 .section__featured > h1 {
-  font-family: 'Roboto';
   font-weight: 700;
   display: flex;
   justify-content: center;
@@ -99,12 +85,6 @@ p {
   padding: 20px;
   font-size: 36px;
 }
-
- 
-#images > h1 {
-  font-family: 'Roboto';
-}
-
 
 .item-1 {
   background:url(https://shorturl.at/hvCLO);
@@ -211,7 +191,6 @@ p {
   width: calc(100% / 3);
   font-size: .6rem;
   padding: 16px;
-  font-family: 'Roboto';
   color: white;
   text-transform: uppercase;
 }
@@ -240,7 +219,6 @@ p {
 }
 
 #section__mid > h1 {
-  font-family: 'Roboto';
   font-weight: 900;
  }
 
@@ -255,7 +233,6 @@ p {
   bottom: 0;
   left: 0;
   margin: 0;
-  font-family: 'Roboto';
   font-size: .7rem;
   padding: 15px;
   text-align: center;
@@ -268,7 +245,6 @@ p {
 
 .item:hover h2 {
   opacity: 1; 
-  font-family: "Roboto";
 }
 
  
@@ -379,7 +355,6 @@ p {
       width: 100vw;
       height: 30vh;
       text-align: center;
-      font-family: 'Roboto',sans-serif;
       margin-bottom: 10px;
     }
     #section__featured > .side__section {
