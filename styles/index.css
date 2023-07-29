@@ -74,29 +74,29 @@ main{
 .section-2{
   display: flex;
   justify-content: center;
-  padding: 0 21vw 3vw 17vw;
 }
 .preview-container{
   display: flex;
   flex-direction: column;
   max-width: 80rem;
+  margin: 2rem auto;
 }
 .preview-information{
-  margin: 3vw;
   display: flex;
   justify-content: center;
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
-  margin: 2rem auto;
+  margin: 2rem;
+  max-width: 60rem;
 }
 .preview-images{
   display: flex;
   font-size: 18px;
   color: #1F2937;
-  gap: 3rem;
   max-width: 60rem;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .image-text-container {
@@ -116,13 +116,12 @@ main{
 .section-3{
   display: flex;
   justify-content: center;
-  padding: 0 21vw 0 17vw;
   background-color: #E5E7EB;
 }
 .quote-container{
   display:flex;
   flex-direction: column;
-  padding: 5vw;
+  padding: 5% 25% 5% 25%;
 }
 .quote-container .quote-text{
   font-size: 36px;
@@ -141,7 +140,7 @@ main{
 .section-4{
   display: flex;
   justify-content: center;
-  padding: 0 21vw 0 17vw;
+  padding: 0 1rem 0 1rem;
 }
 .sign-up-container{
   display: flex;
@@ -149,8 +148,14 @@ main{
   background-color: #3882F6;
   border-radius: 15px;
   width: 100%;
+  max-width: 80rem;
   padding: 2vw 4vw 2vw 4vw;
   margin: 3vw 0 3vw 0;
+}
+.sign-up-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .sign-up-text .sign-up-main-text{
   color: #F9FAF8;
@@ -178,5 +183,42 @@ main{
   }
   .section-1 {
     padding: 1rem;
+  }
+  .hero-container div{
+    width: 100%;
+  }
+  .hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-text .hero-main-text{
+    text-align: center;
+    margin: 0;
+  }
+  .hero-text .hero-secondary-text{
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0;
+  }
+  .preview-images{
+    font-size: 15px;
+    justify-content: space-around;
+  }
+  .image-text-container{
+    flex-basis: 40%;
+    margin: 1rem;
+  }
+  .quote-container{
+    padding: 5% 10% 5% 10%;
+  }
+  .sign-up-container{
+    flex-direction: column;
+  }
+  .sign-up-text{
+    padding: 1rem;
+  }
+  .sign-up-main-text, .sign-up-secondary-text{
+    padding: 0.3rem;
   }
 }
