@@ -1,0 +1,123 @@
+.banner{
+  height:400px;
+  background-color:#1F2937;
+  color: white;
+}
+.banner h1{
+ text-align: center;
+ padding: 30px;
+ margin-bottom: 0px;
+ font-size: 48px;
+}
+.form{
+  padding-top: 0px;
+}
+.form label{
+  text-align: center;
+  font-size: 36px;
+  padding: 10px;
+  display: block;
+}
+.text-area {
+  padding: 1rem;
+}
+.text-area:focus {
+  outline: 2px solid #3882F6;
+}
+.search{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 1rem;
+  align-items: center;
+}
+.search .text-area{
+  width: 300px;
+  height: 25px;
+}
+.search .blue-button{
+  margin-top:0px;
+  margin-left: 5px;
+  height: 41px;
+}
+.chat{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chat p{
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+.container {
+  max-width: 80rem;
+  margin: 2rem auto;
+}
+
+.container h1{
+  text-align: center;
+  font-size: 36px;
+  padding: 20px;
+}
+.question-cards{
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  align-items: stretch;
+}
+.card{
+  padding: 15px;
+  border: none;
+  color: #1F2937;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+.card p {
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  font-style: italic;
+  font-weight: 300;
+}
+.read-more-btn {
+  border: none;
+  background: #3882F6;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+}
+.blue-button{
+  background-color: #3882F6;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+}
+.fa-rocketchat{
+  font-size: 30px;
+}
+
+.bottom {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom button{
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+.fa-arrow-up{
+  font-size: 30px;
+}
