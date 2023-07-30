@@ -202,7 +202,11 @@
  .image_section__text {
      background-color: #E5E7EB;
      height:30vh;
-     margin-bottom:10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
 }
  .item-1 {
      flex-basis: calc(30%-15px);
