@@ -1,39 +1,52 @@
 .gallery-main {
-     max-width: 80rem;
-     margin: 0 auto;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.intro {
+  text-align: center;
+}
+#section__featured > div:nth-of-type(2) {
+  background: url(https://shorturl.at/bryJO); 
+  background-size:cover;
+  background-position: center;
+  margin-top:15px;
+  height:50vh;
+  flex:.5;
+  border-radius: 20px;
 }
  #image__section {
      display:flex;
      flex-direction: column;
 }
- .intro {
-     text-align: center;
+.image_section__text > h1 {
+  font-size:2rem;
 }
- #section__featured > picture > img {
-     margin-top:15px;
-     height:50vh;
-     flex:.5;
-     border-radius: 20px;
+.image_section__text > p {
+  font-weight: 300;
+  padding: 5px;
+  font-size:1rem;
+  font-style: italic;
 }
- #section__featured {
-     display:flex;
-     justify-content: space-evenly;
+.section__featured {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+  outline: none;
 }
- .image_section__text {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     padding: 10px;
+#section__featured > h4 {
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: lowercase;
 }
- .image_section__text > h1 {
-     font-size:2rem;
-}
- .image_section__text > p {
-     font-weight: 300;
-     padding: 5px;
-     font-size:1rem;
-     font-style: italic;
+
+#section__featured > .side__section > button {
+  border: 0;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #3882F6;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
 }
  .section__featured {
      display: flex;

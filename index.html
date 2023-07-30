@@ -5,122 +5,136 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+  <link rel="stylesheet" href="./styles/global.css">
   <link rel="stylesheet" href="./styles/fonts.css">
   <link rel="stylesheet" href="./styles/header-footer.css">
   <link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body>
+
   <header class="header">
-    <div class="logo">
-      Harper Canineview
-    </div>
     <nav class="navbar">
+      <div class="logo">
+        <a href="./index.html">
+          Harper Canineview
+        </a>
+      </div>
       <ul>
+        <li><a href="./index.html">Home</a></li>
         <li><a href="./pages/about.html">About</a></li>
         <li><a href="./pages/gallery.html">Gallery</a></li>
-        <li><a href="./pages/shaheen.html">FAQ</a></li>
+        <li><a href="./pages/faq.html">FAQ</a></li>
         <li><a href="./pages/contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <div class="section-1">
+    <section class="section-1">
       <div class="hero-container">
-        <div class="hero-text">
+        <aside class="hero-text">
           <h1 class="hero-main-text">
-            Taking photos of dogs in landscapes as a way of life.
+            Capturing Moments, Preserving Memories
           </h1>
           <p class="hero-secondary-text">
-            I'm Harper Canineview, a passionate photographer with a profound love for dogs and nature.
-            With my camera in hand, I venture into picturesque landscapes,
-            capturing heartwarming moments of dogs in their element.
-            The joy and connection they share with their surroundings inspire me to tell stories of beauty and serenity.
-            Through my lens, I celebrate the enchanting bond between dogs and the breathtaking wilderness,
-            hoping to spread appreciation for the wonders of our world.
+            Welcome to our world of visual storytelling, where every frame captures the essence of life's most cherished
+            moments. With a passion for portraying genuine emotions and a keen eye for artistic details, we specialize
+            in portrait and event photography. Let us immortalize your memories through our lens, turning fleeting
+            instances into timeless treasures.
           </p>
-          <button class="view-more-button" type="button">
-            View more
-          </button>
-        </div>
-        <div class="hero-placeholder">
-          <img src="./img/index-img/hero-img.png" alt="">
-        </div>
+          <a href="./pages/contact.html" class="view-more-button">
+            Get In Touch
+          </a>
+        </aside>
+        <picture class="hero-placeholder">
+          <img src="./images/hero-image.jpg" alt="photographer holding a camera, camera in focus">
+        </picture>
       </div>
-    </div>
+    </section>
 
-    <div class="section-2">
+    <section class="section-2">
       <div class="preview-container">
-        <div class="preview-information">
-          <p>Some of my work.</p>
-        </div>
-        <div class="preview-images">
-          <div class="image-text-container">
-            <img src="./img/index-img/dog-1.png" alt="">
-            <p>
-              A playful pup basking in the sunlight, amidst the wildflowers,
-              embodying the pure joy of life's simplest moments.
-            </p>
-          </div>
-          <div class="image-text-container">
-            <img src="./img/index-img/dog-2.png" alt="">
-            <p>
-              With ears perked and tail wagging, a contented dog roams freely in a vast meadow,
-              embracing the boundless beauty of nature.
-            </p>
-          </div>
-          <div class="image-text-container">
-            <img src="./img/index-img/dog-3.png" alt="">
-            <p>
-              Capturing serenity, a dog rests gracefully on the tranquil meadow,
-              where peace and nature become one in a timeless embrace.
-            </p>
-          </div>
-          <div class="image-text-container">
-            <img src="./img/index-img/dog-4.png" alt="">
-            <p>
-              In the golden hour's embrace, a furry friend explores the meadow,
-              symbolizing the endless wonder of nature and a dog's unwavering curiosity.
-            </p>
-          </div>
-        </div>
+        <h2 class="preview-information">What we do...</h2>
+        <section class="preview-images">
+          <figure class="image-text-container">
+            <img src="./images/portrait.jpg" alt="woman on a light purple background">
+            <figcaption>
+              <p class="service">Portrait Photography:</p>
+              <p>
+                Personalized portraits that capture your unique essence
+                and personality.
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="image-text-container">
+            <img src="./images/event.jpg" alt="wedding, couple kissing, flower petals falling">
+            <figcaption>
+              <p class="service">Event Photography:</p>
+              <p>
+                Documenting special moments and emotions, preserving
+                memories for a lifetime.
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="image-text-container">
+            <img src="./images/engagement.jpg" alt="man's hand holding woman's hand with engagement ring in focus">
+            <figcaption>
+              <p class="service">Couples & Engagement Shoots:</p>
+              <p>
+                Capturing the love and connection between you,
+                telling your story through stunning photographs.
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="image-text-container">
+            <img src="./images/pet.jpg" alt="adorable dog wearing glasses and a sweater">
+            <figcaption>
+              <p class="service">Pet Photography:</p>
+              <p>
+                Heartwarming sessions to celebrate the bond with your furry companions,
+                creating cherished memories to cherish forever.
+              </p>
+            </figcaption>
+          </figure>
+        </section>
       </div>
-    </div>
+    </section>
 
-    <div class="section-3">
+    <section class="section-3">
       <div class="quote-container">
-        <p class="quote-text">
-          Embrace the untamed spirit within you and run fearlessly amidst the wild wonders of life.
-          Just as a dog finds joy in every new scent, let curiosity lead you to extraordinary adventures.
-        </p>
-        <p class="quote-autor">
-          -Elijah Wildpaws
-        </p>
+        <blockquote class="quote-text">
+          Photography is the only language that can be understood anywhere in the world.
+        </blockquote>
+        <cite class="quote-autor">
+          - Bruno Barbey
+        </cite>
       </div>
-    </div>
+    </section>
 
-    <div class="section-4">
+    <section class="section-4">
       <div class="sign-up-container">
-        <div class="sign-up-text">
-          <p class="sign-up-main-text">
-            Sign up to keep up to date with my work!
-          </p>
+        <aside class="sign-up-text">
+          <h3 class="sign-up-main-text">
+            Follow me to keep up with my work
+          </h3>
           <p class="sign-up-secondary-text">
-            By signing up you can receive daily photos of dogs in landscapes!
+            Discover the world through our lens. Follow our journey on Instagram and be part of the magic!
           </p>
-        </div>
-        <div class="sign-up-button-container">
-          <button class="sign-up-button" type="button">
-            Sign up
-          </button>
-        </div>
+        </aside>
+        <aside class="sign-up-button-container">
+          <a href="https://instagram.com" target="_blank" class="sign-up-button" type="button">
+            Follow Me
+          </a>
+        </aside>
       </div>
+    </section>
   </main>
 
   <footer class="footer">
-    <p>Copyright &copy</p>
+    <p>Copyright &copy <span class="company">Harper Canineview</span></p>
   </footer>
+
 </body>
 
 </html>
